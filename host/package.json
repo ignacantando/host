@@ -1,0 +1,14 @@
+{
+    "name": "hospital-db-seeder",
+    "version": "1.0.0",
+    "description": "Data seeder for hospital database",
+    "main": "seeder.js",
+    "scripts": {
+        "seed": "node seeder.js"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^8.4.1",
+        "dotenv": "^16.4.5",
+        "pg": "^8.13.1"
+    }
+}
